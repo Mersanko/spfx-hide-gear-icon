@@ -1,0 +1,62 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/SustainabilityOnlinePortal/SitePages/Home.aspx",
+      "customActions": {
+        "0fc2faec-d21d-45d5-ad7a-17d3a02cce77": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spfxHideGearIcon": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/SustainabilityOnlinePortal/SitePages/Home.aspx",
+      "customActions": {
+        "0fc2faec-d21d-45d5-ad7a-17d3a02cce77": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spfxHideGearIcon1": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/SustainabilityOnlinePortal/SitePages/SustainabilityForms.aspx",
+      "customActions": {
+        "0fc2faec-d21d-45d5-ad7a-17d3a02cce77": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spfxHideGearIcon2": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/SustainabilityOnlinePlatform/SitePages/Home.aspx",
+      "customActions": {
+        "0fc2faec-d21d-45d5-ad7a-17d3a02cce77": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "spfxHideGearIcon3": {
+      "pageUrl": "https://jgsoffice.sharepoint.com/sites/SustainabilityOnlinePlatform/SitePages//SustainabilityForms.aspx",
+      "customActions": {
+        "0fc2faec-d21d-45d5-ad7a-17d3a02cce77": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.17.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.4",
+    "libraryName": "spfx-hide-gear-icon",
+    "libraryId": "0ba8cbe7-1cf7-444d-9bc9-f6ebdf5378ba",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-hide-gear-icon",
+    "solutionShortDescription": "spfx-hide-gear-icon description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

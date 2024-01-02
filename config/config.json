@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-hide-gear-icon-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spfxHideGearIcon/SpfxHideGearIconApplicationCustomizer.js",
+          "manifest": "./src/extensions/spfxHideGearIcon/SpfxHideGearIconApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js",
+      "globalName": "jquery"
+    }
+  },
+  "localizedResources": {
+    "SpfxHideGearIconApplicationCustomizerStrings": "lib/extensions/spfxHideGearIcon/loc/{locale}.js"
+  }
+}

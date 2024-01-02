@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SpfxHideGearIcon"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="0fc2faec-d21d-45d5-ad7a-17d3a02cce77"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
